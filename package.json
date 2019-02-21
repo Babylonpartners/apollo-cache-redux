@@ -1,5 +1,5 @@
 {
-  "name": "apollo-cache-redux",
+  "name": "@babylon/apollo-cache-redux",
   "version": "0.1.2",
   "description": "Redux cache for Apollo Client 2.x",
   "main": "./lib/index.js",
@@ -7,6 +7,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rportugal/apollo-cache-redux.git"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.ops.babylontech.co.uk/artifactory/api/npm/babylon-virtual-npm/"
   },
   "author": "Ricardo Portugal <ricardofmportugal@gmail.com>",
   "contributors": [
